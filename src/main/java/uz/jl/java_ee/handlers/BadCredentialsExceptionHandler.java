@@ -7,11 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 26/07/22/14:18 (Tuesday)
- * java-ee/IntelliJ IDEA
- */
+
 @WebServlet("/400")
 public class BadCredentialsExceptionHandler extends HttpServlet {
     @Override

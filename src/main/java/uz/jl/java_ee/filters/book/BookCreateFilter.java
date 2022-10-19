@@ -8,11 +8,6 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 26/07/22/14:27 (Tuesday)
- * java-ee/IntelliJ IDEA
- */
 
 @WebFilter(value = "/books/add")
 public class BookCreateFilter implements Filter {

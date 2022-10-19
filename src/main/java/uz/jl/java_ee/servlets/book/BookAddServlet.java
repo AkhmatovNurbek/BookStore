@@ -12,11 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 26/07/22/10:22 (Tuesday)
- * java-ee/IntelliJ IDEA
- */
 
 @WebServlet(value = "/books/add")
 @MultipartConfig

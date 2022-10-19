@@ -10,11 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Objects;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 26/07/22/09:36 (Tuesday)
- * java-ee/IntelliJ IDEA
- */
 
 public class HomeServlet extends HttpServlet {
     @Override

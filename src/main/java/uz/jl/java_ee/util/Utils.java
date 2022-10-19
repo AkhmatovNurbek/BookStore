@@ -3,11 +3,7 @@ package uz.jl.java_ee.util;
 import lombok.NonNull;
 import org.mindrot.jbcrypt.BCrypt;
 
-/**
- * @author "Elmurodov Javohir"
- * @since 26/07/22/14:10 (Tuesday)
- * java-ee/IntelliJ IDEA
- */
+
 public class Utils {
     public static String COVER_EXTENSION = "jpg";
     public static final String COVER_CONTENT_TYPE = "image/" + COVER_EXTENSION;

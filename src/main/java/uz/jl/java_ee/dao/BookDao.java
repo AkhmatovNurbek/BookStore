@@ -7,13 +7,6 @@ import uz.jl.java_ee.domains.Book;
 import java.util.List;
 import java.util.Objects;
 
-
-/**
- * @author "Elmurodov Javohir"
- * @since 26/07/22/11:51 (Tuesday)
- * java-ee/IntelliJ IDEA
- */
-
 public class BookDao implements Dao<Book> {
 
     @Override
