@@ -14,7 +14,7 @@ import uz.jl.java_ee.domains.Uploads;
 import java.util.Objects;
 import java.util.Properties;
 
-public class HibernateConfigurer {
+public class    HibernateConfigurer {
     private static StandardServiceRegistry registry;
     private static SessionFactory sessionFactory;
     private static Session openSession;
@@ -29,7 +29,7 @@ public class HibernateConfigurer {
                 settings.put(Environment.DRIVER, "org.postgresql.Driver");
                 settings.put(Environment.URL, "jdbc:postgresql://localhost:5433/java_ee19libgen");
                 settings.put(Environment.USER, "postgres");
-                settings.put(Environment.PASS, "admin");
+                settings.put(Environment.PASS, "777");
                 settings.put(Environment.SHOW_SQL, "true");
                 settings.put(Environment.HBM2DDL_AUTO, "update");
                 settings.put(Environment.FORMAT_SQL, "true");
