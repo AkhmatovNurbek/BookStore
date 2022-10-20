@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>home</servlet-name>
-        <servlet-class>uz.jl.java_ee.servlets.HomeServlet</servlet-class>
+        <servlet-class>uz.java_ee.servlets.HomeServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -35,7 +35,7 @@
 
 
     <error-page>
-        <exception-type>uz.jl.java_ee.exceptions.BadRequestException</exception-type>
+        <exception-type>uz.java_ee.exceptions.BadRequestException</exception-type>
         <location>/400</location>
     </error-page>
 
