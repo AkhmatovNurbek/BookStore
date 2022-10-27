@@ -1,5 +1,5 @@
 
-# JavaEE
+# JavaEE Bookstore
 Bookstore web aplication using  JSP, Servlet,Threads and Hibernate.
 This web application manages a collection of books with the following features.
 ## Features
